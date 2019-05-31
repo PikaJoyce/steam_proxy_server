@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/index.js"
-    
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,9 @@
   "homepage": "https://github.com/PikaJoyce/steam_proxy_server#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
   }
 }
